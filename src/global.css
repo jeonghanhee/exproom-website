@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "VCR_OSD_MONO";
+    src: url(../public/fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+html,
+body,
+button {
+    margin: 0;
+    font-family: VCR_OSD_MONO;
+    line-height: inherit;
+}
+
+#root {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../public/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 100;
+}
