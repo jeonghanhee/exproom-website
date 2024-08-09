@@ -56,8 +56,8 @@ const Footer = styled.div`
 `
 
 // Download
-const RELEASE_ZIP_FILE_URL = './release/developing.txt';
-const RELEASE_FILE_NAME = 'developing.txt';
+const RELEASE_ZIP_FILE_URL = 'https://www.dropbox.com/scl/fi/xuq729fgu70zjoevz6bq1/EXPROOM.zip?rlkey=i0bc8cvkdiubnrgw1t7cffumb&st=81t1cy0b&dl=1';
+const RELEASE_FILE_NAME = 'EXPROOM-v0.1.zip';
 const handleDownload = () => {
   const element = document.createElement('a');
   element.href = RELEASE_ZIP_FILE_URL;
